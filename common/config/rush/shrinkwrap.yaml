@@ -1,15 +1,37 @@
 dependencies:
   '@rush-temp/silent-gold': 'file:projects/silent-gold.tgz'
+  '@rush-temp/webforms': 'file:projects/webforms.tgz'
+  typescript: 3.8.3
 packages:
+  /typescript/3.8.3:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
   'file:projects/silent-gold.tgz':
+    dependencies:
+      typescript: 3.8.3
     dev: false
     name: '@rush-temp/silent-gold'
     resolution:
-      integrity: sha512-QbwUEBe47P3O87EtmHPaK1o6cNhdf9IioM3Fz+eS+b9bsXF88JIDwOgJX4TjmAF6dEStt+4g4Wj3PN4YKnj52Q==
+      integrity: sha512-vjH7hYQWeXS/FJ3IoUQtWuPW1BjXunQD2rTn/Y/2OFBEg8IZU/F+nOyXXfyKaChAOi70hSAAqIJ14mIj/LUNew==
       tarball: 'file:projects/silent-gold.tgz'
+    version: 0.0.0
+  'file:projects/webforms.tgz':
+    dependencies:
+      typescript: 3.8.3
+    dev: false
+    name: '@rush-temp/webforms'
+    resolution:
+      integrity: sha512-ph90OUa0PB7X2EE+xZ7U2SlI++S1e/Dnr6c7VJyzJEPfjHviUKER4CZi8ujTvtM1fhRQ5pQMqgualUtQEVpFow==
+      tarball: 'file:projects/webforms.tgz'
     version: 0.0.0
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   '@rush-temp/silent-gold': 'file:./projects/silent-gold.tgz'
+  '@rush-temp/webforms': 'file:./projects/webforms.tgz'
+  typescript: ^3.8.3
