@@ -1,0 +1,1 @@
+console.log("Silent is gold!")

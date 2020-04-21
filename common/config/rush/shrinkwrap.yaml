@@ -1,0 +1,15 @@
+dependencies:
+  '@rush-temp/silent-gold': 'file:projects/silent-gold.tgz'
+packages:
+  'file:projects/silent-gold.tgz':
+    dev: false
+    name: '@rush-temp/silent-gold'
+    resolution:
+      integrity: sha512-QbwUEBe47P3O87EtmHPaK1o6cNhdf9IioM3Fz+eS+b9bsXF88JIDwOgJX4TjmAF6dEStt+4g4Wj3PN4YKnj52Q==
+      tarball: 'file:projects/silent-gold.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/silent-gold': 'file:./projects/silent-gold.tgz'
